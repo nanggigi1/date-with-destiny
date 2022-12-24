@@ -1,0 +1,54 @@
+body {
+  background: #82c0f4;
+}
+
+.buttons-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bounds-form-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  margin-top: 16px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-actions-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.form-ui-wrapper {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bounds-button {
+  margin-left: 16px;
+}
+
+button,
+input {
+  background: white;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 12px 12px 12px;
+}
+
+input {
+  width: 100%;
+}

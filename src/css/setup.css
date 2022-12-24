@@ -1,0 +1,26 @@
+body {
+  background: rgb(230, 230, 230);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  user-select: none;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
